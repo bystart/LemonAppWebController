@@ -6,87 +6,7 @@
     </artifacts-to-build>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a2195625-fadf-467f-8bde-72c879224a37" name="Default Changelist" comment="青檬平台APP子系统">
-      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/LemonDemo.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/demo/commom/IsLogin.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/demo/controller/DefultController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/demo/controller/LoginController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/demo/controller/MenuController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/demo/controller/UserController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/demo/dao/MenuDao.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/demo/dao/UserDao.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/demo/domain/Menu.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/demo/domain/User.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/demo/service/MenuService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/demo/service/UserService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/demo/sessionListener/WebListener.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/jdbc.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/log4j.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/mappers/MenuMapper.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/mappers/UserMapper.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/spring-mvc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/spring-mybatis.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/main/login.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/main/shouye.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/menu/left.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/user/index.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/user/userAddForm.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/user/userLoginForm.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/resources/common/common.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/resources/common/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/resources/common/login/app.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/resources/common/login/check.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/resources/common/login/demo.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/resources/common/login/hm.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/resources/common/login/jquery.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/resources/common/login/jquery.qrcode.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/resources/common/login/login.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/resources/common/login/particles.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/resources/common/login/protect.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/resources/imgs/content/dotted.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/resources/imgs/left/app.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/resources/imgs/left/app_current.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/resources/imgs/left/channel.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/resources/imgs/left/channel_current.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/resources/imgs/left/cloud.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/resources/imgs/left/cloud_current.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/resources/imgs/left/custom.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/resources/imgs/left/custom_current.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/resources/imgs/left/home.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/resources/imgs/left/home_current.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/resources/imgs/left/line_bg.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/resources/imgs/left/select_xl.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/resources/imgs/left/select_xl01.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/resources/imgs/left/source.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/resources/imgs/left/source_current.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/resources/imgs/left/statistics.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/resources/imgs/left/statistics_current.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/resources/imgs/left/syetem_management.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/resources/imgs/left/syetem_management_c.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/resources/imgs/left/system.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/resources/imgs/left/system_current.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/resources/imgs/user/complte.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/resources/imgs/user/complte1.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/resources/imgs/user/quit.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/resources/imgs/user/user.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/resources/imgs/user/user1.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/resources/layer/layer.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/resources/layer/mobile/layer.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/resources/layer/mobile/need/layer.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/resources/layer/theme/default/icon-ext.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/resources/layer/theme/default/icon.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/resources/layer/theme/default/layer.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/resources/layer/theme/default/loading-0.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/resources/layer/theme/default/loading-1.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/resources/layer/theme/default/loading-2.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/resources/test.js" afterDir="false" />
-    </list>
+    <list default="true" id="a2195625-fadf-467f-8bde-72c879224a37" name="Default Changelist" comment="" />
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -125,8 +45,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="152">
-              <caret line="82" column="23" selection-start-line="82" selection-start-column="23" selection-end-line="82" selection-end-column="23" />
+            <state relative-caret-position="1441">
+              <caret line="79" column="17" selection-start-line="79" selection-start-column="17" selection-end-line="79" selection-end-column="17" />
             </state>
           </provider>
         </entry>
@@ -213,13 +133,6 @@
       <MavenImportingSettings>
         <option name="importAutomatically" value="true" />
       </MavenImportingSettings>
-    </option>
-  </component>
-  <component name="ProjectConfigurationFiles">
-    <option name="files">
-      <list>
-        <option value="$PROJECT_DIR$/.idea/vcs.xml" />
-      </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
@@ -453,15 +366,24 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1559302669233</updated>
-      <workItem from="1559302672515" duration="8739000" />
+      <workItem from="1559302672515" duration="8982000" />
     </task>
+    <task id="LOCAL-00001" summary="青檬平台APP子系统">
+      <created>1559311580960</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1559311580960</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="8739000" />
+    <option name="totallyTimeSpent" value="8982000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="451" y="15" width="1203" height="817" extended-state="0" />
+    <editor active="true" />
     <layout>
       <window_info id="Designer" />
       <window_info id="Image Layers" />
@@ -469,7 +391,7 @@
       <window_info id="UI Designer" />
       <window_info id="Favorites" side_tool="true" />
       <window_info id="Web" sideWeight="0.50152904" side_tool="true" weight="0.24973376" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49847096" visible="true" weight="0.34108528" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49847096" visible="true" weight="0.34108528" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Application Servers" weight="0.3289183" />
       <window_info anchor="bottom" id="Spring" />
@@ -479,10 +401,10 @@
       <window_info anchor="bottom" id="Messages" weight="0.3289183" />
       <window_info anchor="bottom" id="Java Enterprise" />
       <window_info anchor="bottom" id="Database Changes" />
-      <window_info anchor="bottom" id="Version Control" />
+      <window_info anchor="bottom" id="Version Control" weight="0.32944608" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.3289183" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.43002915" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.43002915" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -705,8 +627,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="152">
-          <caret line="82" column="23" selection-start-line="82" selection-start-column="23" selection-end-line="82" selection-end-column="23" />
+        <state relative-caret-position="1441">
+          <caret line="79" column="17" selection-start-line="79" selection-start-column="17" selection-end-line="79" selection-end-column="17" />
         </state>
       </provider>
     </entry>
