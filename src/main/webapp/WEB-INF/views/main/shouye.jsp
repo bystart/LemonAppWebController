@@ -118,7 +118,7 @@
 <body>
 
     <iframe src="/menu/menu" height="96.5%" width="160px" style="margin: 0px;float: left;"></iframe>
-    <iframe src="/resources/common/index.html" height="96.5%" width="91.66%" style="margin: 0px;position:fixed;" name="right"></iframe>
+    <iframe src="/resources/common/index.html" height="96.5%" width="91.66%" style="margin: 0px;position:fixed;" name="right" id="right"></iframe>
 
 
     <div>

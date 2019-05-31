@@ -66,7 +66,7 @@
 
     <dl class="cloud">
     <dt>聊天通讯<img src="/resources/imgs/left/select_xl01.png"></dt>
-    <dd class="first_dd"><a href="#">聊天室</a></dd>
+    <dd class="first_dd"><a href="javascript:toChat();">聊天室</a></dd>
     </dl>
 
 
@@ -92,4 +92,13 @@
 
     </div>
     </body>
+    <script>
+        function toChat() {
+            console.log(window.parent.document.getElementById("right"))
+            var iframe = window.parent.document.getElementById("right");
+            iframe.src = "/index.jsp";
+        }
+    </script>
+    
+    
     </html>
