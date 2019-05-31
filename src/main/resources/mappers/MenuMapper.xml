@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+
+<mapper namespace="com.demo.dao.MenuDao">
+
+	<sql id="menuSql">
+		a.id as "id",
+		a.name as "name",
+		a.parent as "parent",
+		a.url as "url"
+	</sql>
+
+    <select id="getAllMenus"  resultType="com.demo.domain.Menu">
+		select
+			<include refid="menuSql"/>
+		from
+			menu AS a LEFT JOIN menu AS b
+		ON
+			a.parent = b.id
+	</select>
+
+	<select id="getMenuById" resultType="com.demo.domain.Menu">
+		select
+		<include refid="menuSql"/>
+		from
+			menu a where id=#{id}
+	</select>
+
+	<select id="getMenuByName" resultType="com.demo.domain.Menu">
+		select
+		<include refid="menuSql"/>
+		from menu a where name = #{name}
+	</select>
+
+	<update id="updateMenu"  parameterType="com.demo.domain.Menu" >
+        update
+			menu
+		<trim prefix="set" suffixOverrides=",">
+			<if test="name!=null and name!=''">name=#{name},</if>
+			<if test="parent!=null and parent!=''">parent=#{parent},</if>
+			<if test="url!=null and url!=''">url=#{url},</if>
+		</trim>
+        where
+        	id=#{id}
+    </update>
+
+	<insert id="addMenu" parameterType="com.demo.domain.Menu">
+		insert into
+			menu(
+			name,
+			parent,
+			url
+			)
+			values(
+			#{name},
+			#{parent},
+			#{url}
+			)
+	</insert>
+
+</mapper>

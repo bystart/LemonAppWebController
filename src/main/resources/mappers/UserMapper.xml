@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+
+<mapper namespace="com.demo.dao.UserDao">
+
+	<sql id="UserSql">
+		a.id as "id",
+		a.username as "username",
+		a.password as "password",
+		a.sex as "sex"
+	</sql>
+
+    <select id="getAllUsers"  resultType="com.demo.domain.User">
+		select
+			<include refid="UserSql"/>
+		from
+			user a
+	</select>
+
+	<select id="getUserById" resultType="com.demo.domain.User">
+		select
+		<include refid="UserSql"/>
+		from
+			user a where id=#{id}
+	</select>
+
+	<select id="getUserByName" resultType="com.demo.domain.User">
+		select
+		<include refid="UserSql"/>
+		from
+			user a where username=#{username}
+	</select>
+
+	<update id="updateUser"  parameterType="com.demo.domain.User" >
+        update
+			user
+		<trim prefix="set" suffixOverrides=",">
+			<if test="username!=null and username!=''">username=#{username},</if>
+			<if test="password!=null and password!=''">password=#{password},</if>
+			<if test="sex!=null and sex!=''">sex=#{sex},</if>
+		</trim>
+        where
+        	id=#{id}
+    </update>
+
+	<insert id="addUser" parameterType="com.demo.domain.User">
+		insert into
+			user(
+			username,
+			password,
+			sex
+			)
+			values(
+			#{username},
+			#{password},
+			#{sex}
+			)
+	</insert>
+
+</mapper>
